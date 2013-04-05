@@ -1,3 +1,9 @@
+/**
+ * compress a string like "aaabbcc" to "a3b2c2".
+ * if the compressed the string is longer than the 
+ * original string, return the original one.
+ */
+
 import java.lang.StringBuffer;
 
 public class Q1_5 {

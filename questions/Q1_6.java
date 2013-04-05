@@ -1,3 +1,6 @@
+/**
+ * rotate a NxN matrix by 90 degree
+ */
 public class Q1_6 {
     static void rotate(int[][] matrix) {
         int n = matrix.length;

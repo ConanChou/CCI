@@ -1,3 +1,9 @@
+/**
+ * urlize a string. you need to strip it first.
+ * the space inside the string should be replaced by "%20"
+ * the true length of the original string is given
+ */
+
 import java.util.ArrayList;
 
 public class Q1_4 {
