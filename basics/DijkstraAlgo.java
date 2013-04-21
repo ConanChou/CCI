@@ -15,13 +15,13 @@ public class DijkstraAlgo {
             for (Vertex v : u.es.keySet()) {
                 relax(u,v);
             }
-            System.out.println(u.name + ":\t" + ((u.distance==Integer.MAX_VALUE)? "∞":u.distance));
+            System.out.println(u.name + ":\t" + ((u.distance==Integer.MAX_VALUE/2)? "∞":u.distance));
         }
     }
 
     static void initSingleSource(Set<Vertex> g, Vertex s) {
         for(Vertex v : g) {
-            v.distance = Integer.MAX_VALUE;
+            v.distance = Integer.MAX_VALUE/2;
             v.pi = null;
         }
         s.distance = 0;
