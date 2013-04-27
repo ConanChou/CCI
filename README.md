@@ -3,7 +3,7 @@ CCI
 
 Cracking the Coding Interview
 
-This repo is for the exercises in the interview bible CCI. Plan to have two branches: master for the solutions in the book, and attempt for my own solutions.
+This repo is for the exercises in the interview bible CCI.
 
 License
 =======
